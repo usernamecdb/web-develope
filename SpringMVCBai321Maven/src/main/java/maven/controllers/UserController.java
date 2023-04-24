@@ -15,7 +15,7 @@ public class UserController {
 	{
 		return "login";		
 	}
-	// Xử lý khi user nhấn submiet đăng nhập
+	// Xử lý khi user nhấn submit đăng nhập
 	@RequestMapping(value="login", method = RequestMethod.POST)
 	public String loginPost(ModelMap model, HttpServletRequest request)
 	{
